@@ -16,6 +16,7 @@ export default function Home() {
                     <p>Если вы это прочитали значит</p>
                     <p>Вам делать нечего</p>
                     <button className="mlg-v1-button">Нажми меня</button>
+                    <button className="mlg-v1-button">И на меня</button>
                 </div>
             </div>
 
