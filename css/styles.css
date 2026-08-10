@@ -1,0 +1,120 @@
+body {
+    /*transition: background-color 0.3s ease; !* чтобы плавно сменять фон, если нужно *!*/
+    background: url("/img/wp.png");
+
+    background-position: top center; /* Привязывает верхушку фоновой картинки к верху экрана */
+
+    background-size: cover; /* Растягивать изображение на всю область фона */
+    background-repeat: no-repeat; /* Не повторять изображение */
+
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: black;
+    margin: 0;
+}
+a{
+    color: #dfe4f2
+}
+a:hover{
+    color: #cfdafc
+}
+
+.center-hor{
+    /*display: grid;*/
+    height: 100%;
+    min-height: 95vh;
+    place-items: center; /* Центрирование по горизонтали и вертикали */
+    /*flex: 1; !* Заполняет доступное пространство *!*/
+}
+
+@media (max-width: 768px) {
+    header, footer {
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav a {
+        margin: 10px 0;
+    }
+    iframe {
+         width: 100%;
+         margin: 10px 0;
+    }
+    }
+
+@media (max-width: 480px) {
+    header img {
+        max-width: 40px;
+    }
+    nav a {
+        font-size: 16px;
+    }
+    iframe {
+        height: 250px;
+    }
+}
+
+.im-corn{
+    img {
+        border-radius: 7px;
+    }
+}
+
+
+/*@keyframes bg-move {*/
+/*    from {*/
+/*        background-position: center center;*/
+/*    }*/
+/*    to {*/
+/*        background-position: center top;*/
+/*    }*/
+/*}*/
+
+.product-card img{
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+}
+.product-description {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    padding: 0 10px;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+.product-description.active {
+    max-height: 200px;
+    padding: 10px;
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+.product-card{
+    width: 200px
+}
+
+.plashka {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    max-width: 90%;
+
+    padding: 16px 20px;
+    border-radius: 16px;
+    margin: 0 auto;
+
+    font-size: 15px;
+    line-height: 1.5;
+
+    backdrop-filter: blur(16px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+    transition: all 0.25s ease;
+}

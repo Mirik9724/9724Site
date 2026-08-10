@@ -1,0 +1,79 @@
+.burger {
+    display: none;
+    cursor: pointer;
+    color: white;
+    z-index: 1101; /* выше меню */
+    position: relative; /* для позиционирования градиента */
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    padding: 10px 20px; /* Внутренние отступы */
+    display: flex; /* Располагаем элементы в один ряд */
+    justify-content: space-between; /* Распределяем элементы по краям */
+    align-items: center; /* Центрируем по вертикали */
+    }
+    header img {
+        max-width: 50px; /* Максимальная ширина логотипа */
+        vertical-align: middle; /* Выравнивание по вертикали */
+    }
+    nav {
+        display: flex; /* Располагаем ссылки в один ряд */
+    }
+    nav a {
+        text-decoration: none; /* Убираем подчеркивание ссылок */
+        margin-left: 10px; /* Отступ между ссылками */
+        margin-right: 10px; /* Отступ между ссылками */
+        font-size: 18px; /* Размер текста ссылок */
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+.header-ul {
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* Мобильная версия */
+@media (max-width: 768px) {
+    .burger {
+        display: flex;
+        position: fixed; /* фиксируем в правом верхнем углу */
+        top: 10px;
+        right: 10px;
+        background: transparent;
+        border-radius: 15px;
+        transition: background 0.3s ease;
+        z-index: 1101;
+    }
+
+    /* Меню */
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -100vh; /* скрыто */
+        width: 250px;
+        height: 100vh;
+        background: rgba(68, 68, 68, 0.25);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        padding: 60px 20px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        transition: right 0.3s ease-in-out;
+        box-shadow: -4px 0 10px rgba(0, 0, 0, 0.3);
+        z-index: 1100;
+    }
+
+    .nav-menu.open {
+        right: 0;
+    }
+}
