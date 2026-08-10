@@ -1,0 +1,176 @@
+[
+  {
+    "id": "mouselock",
+    "name": "MouseLock",
+    "type": "mod",
+    "category": "Fabric Mod",
+    "lang": "Java",
+    "tags": ["Fabric", "Minecraft 1.20+", "Java", "UI"],
+    "desc": "Мод для удержания и блокировки курсора мыши внутри окна игры.",
+    "repo": "Mirik9724/MouseLock",
+    "links": {
+      "github": "https://github.com/Mirik9724/MouseLock",
+      "curseforge": "https://curseforge.com/minecraft/mc-mods/mouselock"
+    }
+  },
+  {
+    "id": "chatsplitter",
+    "name": "ChatSplitter",
+    "type": "mod",
+    "category": "Fabric Mod",
+    "lang": "Java",
+    "tags": ["Fabric", "Chat UI", "Java"],
+    "desc": "Удобное разделение локального и глобального чата в Minecraft.",
+    "repo": "Mirik9724/ChatSplitter",
+    "links": {
+      "github": "https://github.com/Mirik9724/ChatSplitter"
+    }
+  },
+  {
+    "id": "shulkerpro",
+    "name": "ShulkerPro",
+    "type": "plugin",
+    "category": "Spigot Plugin",
+    "lang": "Java",
+    "tags": ["Spigot", "Paper", "MC Server", "Mechanics"],
+    "desc": "Продвинутый просмотр и открытие содержимого шулкера прямо из рук без установки на землю.",
+    "repo": "Mirik9724/ShulkerPro",
+    "links": {
+      "github": "https://github.com/Mirik9724/ShulkerPro",
+      "spigot": "https://www.spigotmc.org/resources/shulkerpro.122115/"
+    }
+  },
+  {
+    "id": "whitelist-ultra",
+    "name": "Whitelist Ultra",
+    "type": "plugin",
+    "category": "Spigot Plugin",
+    "lang": "Kotlin",
+    "tags": ["Spigot", "Paper", "Security", "Kotlin"],
+    "desc": "Ультра-система белых списков с проверкой по никнеймам (без обязательного UUID) и чувствительностью к регистру.",
+    "repo": "Mirik9724/whitelist-ultra",
+    "links": {
+      "github": "https://github.com/Mirik9724/whitelist-ultra",
+      "spigot": "https://www.spigotmc.org/resources/whitelist-ultra.122114/"
+    }
+  },
+  {
+    "id": "playermonitor-ultra",
+    "name": "PlayerMonitor Ultra",
+    "type": "plugin",
+    "category": "Spigot Plugin",
+    "lang": "Java",
+    "tags": ["Spigot", "Paper", "Admin Tools", "Security"],
+    "desc": "Административный инструмент для связывания, поиска и отслеживания никнеймов, IP-адресов и UUID игроков.",
+    "repo": "Mirik9724/playermotinor-ultra",
+    "links": {
+      "github": "https://github.com/Mirik9724/playermotinor-ultra",
+      "spigot": "https://www.spigotmc.org/resources/playermonitor-ultra.122110/"
+    }
+  },
+  {
+    "id": "portallock",
+    "name": "PortalLock",
+    "type": "plugin",
+    "category": "Spigot Plugin",
+    "lang": "Java",
+    "tags": ["Spigot", "Paper", "World Control"],
+    "desc": "Плагин для блокировки создания и использования порталов Нижнего мира за пределами заданных координат.",
+    "repo": "Mirik9724/PortalLock",
+    "links": {
+      "github": "https://github.com/Mirik9724/PortalLock",
+      "spigot": "https://www.spigotmc.org/resources/portallock.122111/"
+    }
+  },
+  {
+    "id": "customnamesforgeysermc",
+    "name": "CustomNamesForGeyserMC",
+    "type": "plugin",
+    "category": "Velocity / Geyser Plugin",
+    "lang": "Kotlin",
+    "tags": ["Kotlin", "GeyserMC", "FloodGate", "Velocity"],
+    "desc": "Расширение FloodGate для офлайн-серверов с кастомной обработкой имен игроков.",
+    "repo": "Mirik9724/CustomNamesForGeyserMC",
+    "links": {
+      "github": "https://github.com/Mirik9724/CustomNamesForGeyserMC"
+    }
+  },
+  {
+    "id": "compilator-for-rp",
+    "name": "Compilator-for-RP",
+    "type": "tool",
+    "category": "Python Utility",
+    "lang": "Python",
+    "tags": ["Python", "ResourcePack", "Minecraft", "DevTools"],
+    "desc": "Компилятор для ускоренной сборки и разработки ресурспаков Java Edition (Optifine, CEM, CIT).",
+    "repo": "Mirik9724/Compilator-for-RP",
+    "links": {
+      "github": "https://github.com/Mirik9724/Compilator-for-RP"
+    }
+  },
+  {
+    "id": "mirikapi",
+    "name": "MirikAPI",
+    "type": "library",
+    "category": "Developer Library",
+    "lang": "Kotlin",
+    "tags": ["Kotlin", "API", "BStats", "YML Config"],
+    "desc": "Удобное API для управления .yml конфигурациями, кастомным логгером и BStats-метриками в плагинах.",
+    "repo": "Mirik9724/MirikAPI",
+    "links": {
+      "github": "https://github.com/Mirik9724/MirikAPI"
+    }
+  },
+  {
+    "id": "lanultra",
+    "name": "LANUltra",
+    "type": "mod",
+    "category": "Fabric Mod / Tool",
+    "lang": "Java",
+    "tags": ["Fabric", "LAN", "Offline / License Auth"],
+    "desc": "Мод для гибкой авторизации (гибрид Лицензия + Офлайн) при игре по локальной сети (LAN).",
+    "repo": "Mirik9724/LANUltra",
+    "links": {
+      "github": "https://github.com/Mirik9724/LANUltra"
+    }
+  },
+  {
+    "id": "bichburger",
+    "name": "Bichburger",
+    "type": "mod",
+    "category": "Minecraft Mod",
+    "lang": "Java",
+    "tags": ["Minecraft Mod", "Food", "Java"],
+    "desc": "Мод для добавления кастомных крафтов бургеров и еды в Minecraft.",
+    "repo": "Mirik9724/Bichburger",
+    "links": {
+      "github": "https://github.com/Mirik9724/Bichburger"
+    }
+  },
+  {
+    "id": "milogin",
+    "name": "MiLogin",
+    "type": "plugin",
+    "category": "Spigot / Paper Plugin",
+    "lang": "Kotlin",
+    "tags": ["Kotlin", "Security", "Auth"],
+    "desc": "Легковесный модуль авторизации игроков на Kotlin.",
+    "repo": "Mirik9724/MiLogin",
+    "links": {
+      "github": "https://github.com/Mirik9724/MiLogin"
+    }
+  },
+  {
+    "id": "mios",
+    "name": "MiOS",
+    "type": "tool",
+    "category": "Low-level / System",
+    "lang": "Assembly",
+    "tags": ["Assembly", "OS Development"],
+    "desc": "Экспериментальная низкоуровневая сборка простейшей операционной системы на ассемблере.",
+    "repo": "Mirik9724/MiOS",
+    "links": {
+      "github": "https://github.com/Mirik9724/MiOS"
+    }
+  }
+]

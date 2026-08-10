@@ -1,0 +1,96 @@
+[
+  {
+    "id": "ne-budu",
+    "artist": "Mirik9724",
+    "title": "Сингл «Не буду»",
+    "type": "Single",
+    "year": "2026",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273b93f71d7aa7dfce2bd49223e",
+    "description": "Сольный сингл Mirik9724.",
+    "links": {
+      "spotify": "https://open.spotify.com/album/6Bqaxc77BWrzxcFK0ZMufa?si=g2zu5uMjQHqsGDfB3pWb2A",
+      "yandex": "https://music.yandex.ru/album/43308843?utm_source=web&utm_medium=copy_link"
+    }
+  },
+  {
+    "id": "duny",
+    "artist": "Mirik9724",
+    "title": "Сингл «Дюны»",
+    "type": "Single",
+    "year": "2026",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273b3321242b7f88e28529edc0f",
+    "description": "Атмосферный сингл с плотным саундом и басом.",
+    "links": {
+      "spotify": "https://open.spotify.com/album/duny",
+      "yandex": "https://music.yandex.ru/album/43069275?utm_source=web&utm_medium=copy_link",
+      "apple": "https://music.apple.com/us/album/%D0%B4%D1%8E%D0%BD%D1%8B-single/6795546577"
+    }
+  },
+  {
+    "id": "novy-den",
+    "artist": "Mirik9724",
+    "title": "Сингл «Новый день»",
+    "type": "Single",
+    "year": "2026",
+    "cover": "https://i.scdn.co/image/ab67616d0000b27313f4fcc7884a3ed0a3cdedc5",
+    "description": "Динамичный меланхоличный трек про движение вперед.",
+    "links": {
+      "spotify": "https://open.spotify.com/album/3h1HT3Zv5QIzU7qDQmo0Rf?si=Lkh1sOM5ShmxqXt-hjvyoQ",
+      "yandex": "https://music.yandex.ru/album/42648270?utm_source=web&utm_medium=copy_link",
+      "apple": "https://music.apple.com/us/album/%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9-%D0%B4%D0%B5%D0%BD%D1%8C-single/6785758239"
+    }
+  },
+  {
+    "id": "peretsenzureno",
+    "artist": "Mirik9724",
+    "title": "Сингл «Перецензурено»",
+    "type": "Single",
+    "year": "2026",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2731e198b26f907bffddea5077a",
+    "description": "Резкий хип-хоп сингл с авторским битом.",
+    "links": {
+      "spotify": "https://open.spotify.com/album/7p1AXBPvDtSNW7nWAUdsM7?si=d4Fl53bYQFihXuzzv9cpLA",
+      "yandex": "https://music.yandex.ru/album/42313735?utm_source=web&utm_medium=copy_link",
+      "apple": "https://music.apple.com/us/album/перецензурено-single/6779166516"
+    }
+  },
+  {
+    "id": "proby",
+    "artist": "Mirik9724",
+    "title": "Альбом «Пробы»",
+    "type": "Full Album",
+    "year": "2026",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273c6a71c831a0badb95e1380eb",
+    "description": "Полноформатный сольный альбом из 8 треков (Intro, Piano Flex, Snow, Money Rain, Guns Of Zero, Mirror, AirNoise, Titanium Blades).",
+    "tracklist": [
+      "1. Intro",
+      "2. Piano Flex",
+      "3. Snow",
+      "4. Money Rain",
+      "5. Guns Of Zero",
+      "6. Mirror",
+      "7. AirNoise",
+      "8. Titanium Blades"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/album/4lrt2cDzJodupJMa8wNsEc?si=kgqKik1xRtSSPqCfX0ETPg",
+      "yandex": "https://music.yandex.ru/album/41541036?utm_source=web&utm_medium=copy_link",
+      "apple": "https://music.apple.com/us/album/пробы/1895247496",
+      "youtube": "https://www.youtube.com/watch?v=ba6uz7W-oGE&list=OLAK5uy_lfkOdUrxud_AkmEVYuBkLEMEy-zdoMeBs"
+    }
+  },
+  {
+    "id": "goroto",
+    "artist": "Mirik9724 feat. Burper",
+    "title": "Сингл «ГОРОТО»",
+    "type": "Single",
+    "year": "2025",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2732eb64c76b8a5a6627c4e2227",
+    "description": "Совместный сингл Mirik9724 и Burper.",
+    "links": {
+      "spotify": "https://open.spotify.com/album/6WruuQWN6lUoQTvagxKA7e?si=05_aEPEATnyz7jYyZck4Qw",
+      "yandex": "https://music.yandex.ru/album/43068039?utm_source=web&utm_medium=copy_link",
+      "apple": "https://music.apple.com/us/album/%D0%B3%D0%BE%D1%80%D0%BE%D1%82%D0%BE-feat-burper-single/6795508369"
+    }
+  }
+]

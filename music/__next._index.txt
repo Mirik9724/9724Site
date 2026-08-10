@@ -1,0 +1,7 @@
+1:"$Sreact.fragment"
+2:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+3:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"default"]
+4:I[74164,["/_next/static/chunks/be240c7c2377ce4a.js","/_next/static/chunks/da41d647085404f9.js"],"default"]
+:HL["/_next/static/chunks/885f304f416e0d1b.css","style"]
+:HL["/_next/static/chunks/1a8049e67a3db26f.css","style"]
+0:{"buildId":"M45wJlHCDePQstDWbG1Sw","rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/885f304f416e0d1b.css","precedence":"next"}]],["$","html",null,{"lang":"ru","children":[["$","head",null,{"children":[["$","meta",null,{"name":"theme-color","content":"#9311bc"}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"Mirik9724\",\"url\":\"https://mirik9724.net \",\"logo\":\"https://mirik9724.net/img/logo/mi.png\",\"description\":\"Mirik9724 - \\\"I'm people\\\"\",\"sameAs\":[]}"}}]]}],["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}],"notFound":[["$","$L4",null,{}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1a8049e67a3db26f.css","precedence":"next"}]]]}]}]]}]]}],"loading":null,"isPartial":false}
