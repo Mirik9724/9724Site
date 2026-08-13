@@ -1,15 +1,28 @@
 [
   {
+    "id": "flex-land-preview",
+    "artist": "Mirik9724",
+    "title": "Сингл «Flex Land Preview»",
+    "type": "Single",
+    "year": "2026",
+    "cover": "https://avatars.yandex.net/get-music-content/21498071/e1597bdf.a.43515678-1/m1000x1000",
+    "description": "Предварительный релиз альбома.",
+    "links": {
+      "yandex": "https://music.yandex.ru/album/43515678?utm_source=web&utm_medium=copy_link"
+    }
+  },
+  {
     "id": "ne-budu",
     "artist": "Mirik9724",
     "title": "Сингл «Не буду»",
     "type": "Single",
     "year": "2026",
     "cover": "https://i.scdn.co/image/ab67616d0000b273b93f71d7aa7dfce2bd49223e",
-    "description": "Сольный сингл Mirik9724.",
+    "description": "Кальян рэп.",
     "links": {
       "spotify": "https://open.spotify.com/album/6Bqaxc77BWrzxcFK0ZMufa?si=g2zu5uMjQHqsGDfB3pWb2A",
-      "yandex": "https://music.yandex.ru/album/43308843?utm_source=web&utm_medium=copy_link"
+      "yandex": "https://music.yandex.ru/album/43308843?utm_source=web&utm_medium=copy_link",
+      "apple": "https://music.apple.com/us/song/%D0%BD%D0%B5-%D0%B1%D1%83%D0%B4%D1%83/6800781759"
     }
   },
   {
@@ -19,7 +32,7 @@
     "type": "Single",
     "year": "2026",
     "cover": "https://i.scdn.co/image/ab67616d0000b273b3321242b7f88e28529edc0f",
-    "description": "Атмосферный сингл с плотным саундом и басом.",
+    "description": "Смысл в человеческих сомнениях.",
     "links": {
       "spotify": "https://open.spotify.com/album/duny",
       "yandex": "https://music.yandex.ru/album/43069275?utm_source=web&utm_medium=copy_link",
@@ -61,7 +74,7 @@
     "type": "Full Album",
     "year": "2026",
     "cover": "https://i.scdn.co/image/ab67616d0000b273c6a71c831a0badb95e1380eb",
-    "description": "Полноформатный сольный альбом из 8 треков (Intro, Piano Flex, Snow, Money Rain, Guns Of Zero, Mirror, AirNoise, Titanium Blades).",
+    "description": "Первый крупный релиз от Mirik9724.",
     "tracklist": [
       "1. Intro",
       "2. Piano Flex",
@@ -86,7 +99,7 @@
     "type": "Single",
     "year": "2025",
     "cover": "https://i.scdn.co/image/ab67616d0000b2732eb64c76b8a5a6627c4e2227",
-    "description": "Совместный сингл Mirik9724 и Burper.",
+    "description": "Совместный сингл от Mirik9724 и Burper.",
     "links": {
       "spotify": "https://open.spotify.com/album/6WruuQWN6lUoQTvagxKA7e?si=05_aEPEATnyz7jYyZck4Qw",
       "yandex": "https://music.yandex.ru/album/43068039?utm_source=web&utm_medium=copy_link",
