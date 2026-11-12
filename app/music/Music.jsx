@@ -11,8 +11,17 @@ const SERVICE_META = {
     apple: { name: "Apple Music", icon: "/img/logo/Apple_Music_icon.svg.webp" },
     vk: { name: "VK Музыка", icon: "/icons/vk.svg" },
     youtube: { name: "YouTube Music", icon: "/img/logo/Youtube.webp" },
-    soundcloud: { name: "SoundCloud", icon: "/icons/soundcloud.svg" }
+    soundcloud: { name: "SoundCloud", icon: "/icons/soundcloud.svg" },
+    tg: { name: "Telegram", icon: "/img/logo/telegram.webp" }
 };
+const getServiceMeta = (key) => {
+    const lowerKey = key.toLowerCase();
+    const matchedKey = Object.keys(SERVICE_META).find(serviceKey =>
+        lowerKey.includes(serviceKey)
+    );
+    return matchedKey ? SERVICE_META[matchedKey] : { name: key, icon: "/icons/music.svg" };
+};
+
 
 function MusicContent() {
     const searchParams = useSearchParams();
@@ -116,7 +125,8 @@ function MusicContent() {
                     {/* Список всех музыкальных сервисов */}
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', width: '100%', margin: '20px 0' }}>
                         {Object.entries(activeRelease.links || {}).map(([key, url]) => {
-                            const meta = SERVICE_META[key] || { name: key, icon: "/icons/music.svg" };
+                            const meta = getServiceMeta(key);
+
                             return (
                                 <a key={key} href={url} target="_blank" rel="noreferrer" style={{ textDecoration: 'none', width: '100%' }}>
                                     <button className="mlg-v1-button" style={{
