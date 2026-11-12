@@ -1,5 +1,16 @@
 [
   {
+    "id": "zeleny-gorod",
+    "artist": "Mirik9724 & ASTKO",
+    "title": "Демо «Зелёный город»",
+    "type": "Demo",
+    "year": "2026",
+    "cover": "https://www.dropbox.com/scl/fi/55hmc0ijcsrvi7a0d7cqg/.png?rlkey=zb4nvldfit43jy3it9x4fouyz&st=6l76vuyn&dl=1",
+    "description": "Новый сингл",
+    "links": {
+      "tg": "https://t.me/mirik9724/3186"
+    }
+  },{
     "id": "flex-land-preview",
     "artist": "Mirik9724",
     "title": "Сингл «Flex Land Preview»",
